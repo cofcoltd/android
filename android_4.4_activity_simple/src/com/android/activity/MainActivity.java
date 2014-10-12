@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.app.DownloadManager.Request;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -36,6 +37,8 @@ public class MainActivity extends Activity {
 	class ViewClickListener implements View.OnClickListener {
 		@Override
 		public void onClick(View view) {
+			
+			Log.i("oracle", "Activity has been clicked");
 
 			switch (view.getId()) {
 			case R.id.main_btn_send:
