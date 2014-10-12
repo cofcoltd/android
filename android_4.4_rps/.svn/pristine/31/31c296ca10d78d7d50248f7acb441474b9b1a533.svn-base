@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.title" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio.scissors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rps.scissors" />
+
+        <RadioButton
+            android:id="@+id/radio.rocks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rps.rocks" />
+
+        <RadioButton
+            android:id="@+id/radio.papers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rps.papers"
+             />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rps.btn.guess" />
+
+</LinearLayout>

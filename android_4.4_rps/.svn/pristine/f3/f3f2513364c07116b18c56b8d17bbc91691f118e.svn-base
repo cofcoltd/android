@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="main.title">Finger guessing game</string>
+    <string name="result.title">Result</string>
+    
+    
+    <string name="rps.rocks">Rocks / 石头</string>
+    <string name="rps.papers">Papers / 布</string>
+    <string name="rps.scissors">Scissors /  剪子</string>
+    
+    <string name="rps.btn.guess">Guess</string>
+    
+</resources>
